@@ -1,0 +1,94 @@
+.imagem-cachorro {
+height: 500px;
+object-fit: cover;
+object-position: 0 25%;
+}
+
+.imagem-cachorro-1 {
+    height: 500px;
+    object-fit: cover;
+    object-position: 0 15%;
+}
+
+p {
+    font-family: 'Jua', sans-serif;
+    font-size: 30px;
+    color:rgb(196, 5, 100);
+}
+a{
+    font-family: 'Jua', sans-serif;
+    font-size: 40px;   
+}
+
+.fonte{
+    font-family: 'Jua', sans-serif;
+    color: black;
+    
+}
+
+.cor-nav{
+    background-color: rgb(196, 5, 100);
+    height: 100px;
+}
+
+.botao a:hover{
+    border: solid 2px white; 
+    color: white;
+}
+
+.botao a{
+    text-decoration: none ;
+    color: black;
+    font-family: 'Jua', sans-serif;
+    background-color: rgb(196, 5, 100);
+    padding: 12.5px 35px;
+    border-radius: 3px ; 
+}
+form{
+    width: 44%; 
+}
+form, aside{
+    margin-top: 175px ;
+}
+ol{
+    overflow: auto;
+    max-height: 400px ;
+    margin: 0;
+    padding: 0;
+}
+ol li{
+    padding: 15px 27px;
+    background: rgb(196, 5, 100) ;
+    margin-bottom: 10px ;
+    list-style-type: none;
+    font-family: 'Inconsolata', monospace;
+}
+aside{
+    display: none;
+    width: 10% ;
+    padding: 15px ;
+    border: solid 1px rgb(196, 5, 100); 
+}
+label{
+    font-size: 1.6rem;
+    color:rgb(196, 5, 100);
+    font-family: 'Jua', sans-serif;
+    font-size: 30px;
+
+}
+.btn-cor{
+    color: rgb(196, 5, 100);
+    font-family: 'Jua', sans-serif;
+}
+.fatos-container{
+  position: relative; 
+  padding: 5px;
+  
+}
+.fatos-background{
+    height: 100vh ;
+    background-image: url(../Imagens/imagem-fundo.webp);
+    background-repeat: no-repeat;  
+    background-size: 100%; 
+}
+
