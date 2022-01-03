@@ -7,6 +7,12 @@ object-position: 0 25%;
 .imagem-cachorro-1 {
     height: 500px;
     object-fit: cover;
+    object-position: 0 35%;
+}
+
+.imagem-cachorro-2 {
+    height: 500px;
+    object-fit: cover;
     object-position: 0 15%;
 }
 
@@ -29,6 +35,10 @@ a{
 .cor-nav{
     background-color: rgb(196, 5, 100);
     height: 100px;
+}
+.cor-footer{
+    background-color: rgb(196, 5, 100);
+    
 }
 
 .botao a:hover{
@@ -85,10 +95,18 @@ label{
   padding: 5px;
   
 }
-.fatos-background{
+.fatos-fundo{
     height: 100vh ;
-    background-image: url(../Imagens/imagem-fundo.webp);
+    background-image: url(../Imagens/cachorro.jpg);
     background-repeat: no-repeat;  
-    background-size: 100%; 
+    background-size: 100%;
+    
+}
+
+.formulario-fundo {
+    height: 100vh ;
+    background-image: url(../Imagens/vira-lata-filhote.jpg);
+    background-repeat: no-repeat;  
+    background-size: 100%;
 }
 
