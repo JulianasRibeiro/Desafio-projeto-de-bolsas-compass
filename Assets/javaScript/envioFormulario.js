@@ -1,4 +1,4 @@
-const url = 'Access-Control-Allow-Origin: https://dog-facts-api.herokuapp.com/api/v1/resources/dogs/all';
+const url = 'Access-Control-Allow-Origin: https://github.com/leostacowski/prog-bolsas-api';
 fetch(url, {
   method: 'get' 
 })
@@ -8,5 +8,3 @@ fetch(url, {
 .catch(function(err) { 
   console.error(err);
 });
-
-
