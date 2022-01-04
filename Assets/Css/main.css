@@ -29,16 +29,12 @@ a{
 .fonte{
     font-family: 'Jua', sans-serif;
     color: black;
-    
+
 }
 
 .cor-nav{
     background-color: rgb(196, 5, 100);
     height: 100px;
-}
-.cor-footer{
-    background-color: rgb(196, 5, 100);
-    
 }
 
 .botao a:hover{
@@ -57,21 +53,24 @@ a{
 form{
     width: 44%; 
 }
+
 form, aside{
     margin-top: 175px ;
 }
+
 ol{
     overflow: auto;
     max-height: 400px ;
     margin: 0;
     padding: 0;
 }
+
 ol li{
     padding: 15px 27px;
     background: rgb(196, 5, 100) ;
     margin-bottom: 10px ;
     list-style-type: none;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Jua', sans-serif;
 }
 aside{
     display: none;
@@ -108,5 +107,14 @@ label{
     background-image: url(../Imagens/vira-lata-filhote.jpg);
     background-repeat: no-repeat;  
     background-size: 100%;
+}
+
+.cor-footer{
+    background-color: rgb(196, 5, 100);
+    
+}
+
+.formulario{
+    margin-top: 25px;
 }
 
